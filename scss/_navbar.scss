@@ -1,4 +1,8 @@
 // Styling for the navbar
+@font-face {
+  font-family: 'chalk-it-up';
+  src: url('/fonts/DJB_CHALK_It_Up.ttf') format('truetype');
+}
 #mainNav {
   border-bottom: 1px solid fade-out($gray-900, .9);
   background-color: $primary-prussian;
@@ -10,7 +14,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: $primary;
-    @include sans-serif-font;
+    font-family: 'chalk-it-up';
     &:focus,
     &:hover {
       color: darken($primary, .1);
@@ -41,7 +45,8 @@
     border-color: transparent;
     background-color: transparent;
     .navbar-brand {
-      color: fade-out($white, .3);
+      color: $white;
+      font-size: 2.9rem;
       &:focus,
       &:hover {
         color: $white;
@@ -70,10 +75,10 @@
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $primary-prussian;
       .navbar-brand {
-        color: $primary;
+        color: $white;
         &:focus,
         &:hover {
-          color: darken($primary, .1);
+          color: darken($white, .1);
         }
       }
       .navbar-nav > li.nav-item > a.nav-link,
