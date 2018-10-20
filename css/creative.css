@@ -59,8 +59,14 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.about-section {
+  background-image: url("./img/portfolio/fullsize/1.jpg");
+}
+
 .bg-primary {
   background-color: #5d807f !important;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-dark {
@@ -73,6 +79,11 @@ h6 {
 
 section {
   padding: 8rem 0;
+}
+
+.test-div {
+  padding: 8rem 0;
+  background-image: url("../img/portfolio/fullsize/1.jpg");
 }
 
 .section-heading {
