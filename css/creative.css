@@ -273,6 +273,18 @@ header.masthead p {
   max-width: 400px;
 }
 
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
@@ -281,9 +293,9 @@ header.masthead p {
 }
 
 .portfolio-box .portfolio-box-caption {
-  position: absolute;
   bottom: 0;
   display: block;
+  padding: 0 0 0 0px;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -305,7 +317,7 @@ header.masthead p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  padding: 0 15px;
+  padding: 0 -15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
