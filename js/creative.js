@@ -73,6 +73,18 @@
     scale: 0
   });
 
+  $("#modal1").on('hidden.bs.modal', function (e) {
+    $("#modal1 iframe").attr("src", $("#modal1 iframe").attr("src"));
+});
+  $("#modal2").on('hidden.bs.modal', function (e) {
+    $("#modal2 iframe").attr("src", $("#modal2 iframe").attr("src"));
+});
+  $("#modal3").on('hidden.bs.modal', function (e) {
+    $("#modal3 iframe").attr("src", $("#modal3 iframe").attr("src"));
+});
+
+
+
   // Magnific popup calls
   $('.popup-gallery').magnificPopup({
     delegate: 'a',

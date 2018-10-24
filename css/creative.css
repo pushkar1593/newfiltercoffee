@@ -60,7 +60,19 @@ h6 {
 }
 
 .about-section {
-  background-image: url("./img/portfolio/fullsize/1.jpg");
+  padding: 22rem 0 8rem 0;
+  background-image: url("../img/about.jpg");
+  text-color: black;
+}
+
+.music-section {
+  padding: 8rem 0;
+  background-image: url("../img/music.jpg");
+}
+
+.video-section {
+  padding: 16rem 0;
+  background-image: url("../img/video.jpg");
 }
 
 .bg-primary {
@@ -79,11 +91,6 @@ h6 {
 
 section {
   padding: 8rem 0;
-}
-
-.test-div {
-  padding: 8rem 0;
-  background-image: url("../img/portfolio/fullsize/1.jpg");
 }
 
 .section-heading {
@@ -240,6 +247,9 @@ header.masthead {
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.jpg");
   background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
   background-size: cover;
 }
 

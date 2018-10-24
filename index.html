@@ -3,12 +3,22 @@
 
   <head>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127977516-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127977516-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Iyer's Filter Coffee</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +37,8 @@
   </head>
 
   <body id="page-top">
+    <header class="masthead text-center text-white d-flex">
+    </header>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -80,24 +92,22 @@
         </div>
     </nav>
 
-    <header class="masthead text-center text-white d-flex">
-    </header>
 
-    <div class="bg-primary test-div" id="about">
+    <div class="bg-primary about-section" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
+          <div class="col-lg-16 mx-auto text-center">
             <h2 class="section-heading text-white">WHO ARE WE?</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Iyer’s Filter Coffee is a Garage/Indie rock band based out of Bangalore. Drawing inspiration from bands such as The Strokes, Oasis, Arctic Monkeys, RHCP and The Beatles, this four-piece band is high on energy and is sure to leave you craving more.</p>
-            <p class="text-faded mb-4">IFC was formed with the intent of creating and playing original music live, keeping up with the times as indie music continues to grow and evolve. Having released their first single in April 2017, the band is well on course to deliver an EP in the next few months that will look to make a dent in the Indie music scene in India.</p>
+            <p class="dark-text mb-4">Iyer’s Filter Coffee is a Garage/Indie rock band based out of Bangalore. Drawing inspiration from bands such as The Strokes, Oasis, Arctic Monkeys, RHCP and The Beatles, this four-piece band is high on energy and is sure to leave you craving more.</p>
+            <p class="dark-text mb-4">IFC was formed with the intent of creating and playing original music live, keeping up with the times as indie music continues to grow and evolve. Having released their first single in April 2017, the band is well on course to deliver an EP in the next few months that will look to make a dent in the Indie music scene in India.</p>
             <!--a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a-->
           </div>
         </div>
       </div>
     </div>
 
-    <section class="bg-primary" id="services">
+    <section class="bg-primary music-section" id="services">
       <div class="row">
         <div class="col-lg-12 mx-auto text-center">
         </div>
@@ -145,13 +155,25 @@
       </div-->
     </section>
 
-    <section class="p-15 bg-primary" id="portfolio">
+    <section class="p-15 bg-primary video-section" id="portfolio">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm">
             <div class="container">
-              <input type="image" src="https://img.youtube.com/vi/PFIsgXxZYUo/hqdefault.jpg" data-toggle="modal" data-target="#exampleModal"/>
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <input type="image" src="https://img.youtube.com/vi/nCPKI4-UknQ/hqdefault.jpg" data-toggle="modal" data-target="#modal1"/>
+              <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nCPKI4-UknQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm">
+            <div class="container">
+              <input type="image" src="https://img.youtube.com/vi/PFIsgXxZYUo/hqdefault.jpg" data-toggle="modal" data-target="#modal2"/>
+              <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/PFIsgXxZYUo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -162,20 +184,8 @@
           </div>
           <div class="col-sm">
             <div class="container">
-              <input type="image" src="https://img.youtube.com/vi/8bqVqKSnOEA/hqdefault.jpg" data-toggle="modal" data-target="#exampleModal"/>
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8bqVqKSnOEA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div> 
-          </div>
-          <div class="col-sm">
-            <div class="container">
-              <input type="image" src="https://img.youtube.com/vi/Gv3cIo3bfUI/hqdefault.jpg" data-toggle="modal" data-target="#exampleModal"/>
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <input type="image" src="https://img.youtube.com/vi/Gv3cIo3bfUI/hqdefault.jpg" data-toggle="modal" data-target="#modal3"/>
+              <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Gv3cIo3bfUI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -290,12 +300,12 @@
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p>123-456-6789</p>
+            <p>+91 78919 87224</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+              <a href="mailto:iyersfiltercoffee@gmail.com">iyersfiltercoffee@gmail.com</a>
             </p>
           </div>
         </div>
